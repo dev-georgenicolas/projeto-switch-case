@@ -12,6 +12,7 @@ match x:
                 p = (b+(n/b))/2
                 b = p
                 pSquare = p**2
+        print(f"A raiz quadrada de {n} é: {p}")
     case 2:
         valor = float(input("Digite o valor a pagar: "))
         cedulas = 0
