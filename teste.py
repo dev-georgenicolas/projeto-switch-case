@@ -16,8 +16,9 @@
 # tela.mainloop()  # Mantém a janela aberta
 
 
-import customtkinter
+import tkinter
 
-janela = customtkinter.CTk()
-janela.geometry("300x200")
-janela.mainloop()
+root = tkinter.Tk()
+root.eval('tk::PlaceWindow . center')
+
+root.mainloop()
