@@ -1,0 +1,1 @@
+jane.pack(anchor='s')
