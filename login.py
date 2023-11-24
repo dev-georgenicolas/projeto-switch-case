@@ -7,7 +7,8 @@ jane.geometry("340x340")
 
 
 texto = Label(jane,text="Login")
-texto.pack()
+texto2 = Label(jane,text="Login2")
+texto.grid(row=1,column=2)
 
 
 jane.mainloop()
