@@ -35,6 +35,7 @@ texto_senha.grid(row=2, column=0)
 login.grid(row=3, column=0, columnspan=2, pady=30)
 
 frame.pack()
+jane.resizable(0,0)
 
 jane.mainloop()
 
