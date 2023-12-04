@@ -12,7 +12,7 @@ def login():
     if nome.get()== user and senha.get() == senha_user:
        messagebox.showinfo(title="Login", message="Você foi logado com sucesso")
     else:
-        messagebox.showerror(title="Login", message="Falha ao realizar o login. Usuário ou senha incorretos!"
+        messagebox.showerror(title="Login", message="Falha ao realizar o login. Usuário ou senha incorretos!")
 
 
 
