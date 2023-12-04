@@ -10,9 +10,9 @@ def login():
     user = "nepomuceno"
     senha_user = "123456"
     if nome.get()== user and senha.get() == senha_user:
-       messagebox.showinfo(title="Você está logado", Message="Você foi logado com sucesso")
+       messagebox.showinfo(title="Login", message="Você foi logado com sucesso")
     else:
-        print("Login incorreto")
+        messagebox.showerror(title="Login", message="Falha ao realizar o login. Usuário ou senha incorretos!"
 
 
 
