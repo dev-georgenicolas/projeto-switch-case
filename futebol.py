@@ -68,6 +68,6 @@ if tempo > 90:
     if gol_do_neymar:
         print("Vitória do Brasil com golaço do Neymito")
     elif messi:
-        print("Argentina 1 X Brasil 1, o jogo vai pra prorrogação"/n)
+        print("Argentina 1 X Brasil 1, o jogo vai pra prorrogação")
         if juiz2:
             print("Começa o jogo")
